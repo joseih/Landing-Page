@@ -1,100 +1,107 @@
+/* Geral */
 * {
-    font-family: 'Roboto';
-    padding: 0;
-    margin: 0;
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
 }
 
-
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #conteiner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #top,
 footer {
-    align-self: stretch;
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-
+  align-self: stretch;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
 }
+/* Fim Geral */
+
+/* Inicio top */
 
 #top {
-    height: 400px;
+  height: 400px;
+  margin-bottom: 1vh;
 }
 
 header h4 {
-    font-size: 24px;
-    color: #f9faf8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 header {
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
 }
 
 header ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
 }
 
 #apresentation {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-#apresentation>div {
-    flex-shrink: 0;
-    flex-grow: 0;
-    flex-basis: 35%;
-    flex-wrap: wrap;
+#apresentation > div {
+  flex-basis: 35vw;
 }
-
-#apresentation>img {
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-
-
 
 #apresentation h2 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 #apresentation p,
 a,
 li {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .button1 {
-    margin-top: 5%;
-    background-color: #3882F6;
-    color: #f9faf8;
-    font-size: 18px;
-    padding: 5px 22px 5px 22px;
-    border-radius: 8px;
-    border-width: 0px;
+  margin-top: 5%;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 5px 22px 5px 22px;
+  border-radius: 8px;
+  border-width: 0px;
 }
 
 .button1:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button1:active {
-    background-color: #204e97;
-    transform: translateY(4px);
+  background-color: #204e97;
+  transform: translateY(4px);
+}
+/* Fim top */
+/* Inicio content */
+
+#content {
+  align-self: stretch;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+#content > h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
